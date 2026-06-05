@@ -57,8 +57,8 @@ def run_ffmpeg(video_path, stream_key, is_shorts, log_callback):
 def main():
     st.set_page_config(page_title="Streaming YouTube Live", page_icon="🎥", layout="wide")
 
-    # ✅ Naikkan limit upload ke 20000 MB
-    st.config.set_option("server.maxUploadSize", 20000)
+    # ✅ Naikkan limit upload ke 10000 MB
+    st.config.set_option("server.maxUploadSize", 10000)
 
     st.title("🎥 Live Streaming ke YouTube")
 
